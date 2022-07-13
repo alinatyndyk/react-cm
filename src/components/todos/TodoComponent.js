@@ -1,8 +1,9 @@
-export default function TodoComponent(){
+export default function TodoComponent({item}){
     return(
         <div>
-            Posts
-            
+            {item.id} - {item.title}
+
+
         </div>
     )
 }

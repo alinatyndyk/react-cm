@@ -1,7 +1,9 @@
- function TodosPage(){
+import TodosComponent from "../components/todos/TodosComponent";
+
+function TodosPage(){
     return(
         <div>
-            todospage
+            <TodosComponent/>
             
         </div>
     )

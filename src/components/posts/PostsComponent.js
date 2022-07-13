@@ -1,7 +1,9 @@
-export default function PostsComponent(){
+export default function PostsComponent({item}){
     return(
         <div>
-            Posts
+            <h3>{item.id}</h3>
+            <p>{item.body}</p>
+            <p>{item.title}</p>
             
         </div>
     )
